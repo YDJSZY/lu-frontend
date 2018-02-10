@@ -1,0 +1,23 @@
+{
+  "name": "lu-frontend",
+  "version": "0.0.1",
+  "description": "this is use to create project structure for Vue and React",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YDJSZY/lu-frontend"
+  },
+  "scripts": {
+    "test": "./bin/frontend.js"
+  },
+  "bin": {
+    "frontend": "./bin/frontend.js"
+  },
+  "author": "luwenwei",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "commander": "^2.14.1",
+    "fs-extra": "^2.1.2"
+  }
+}
